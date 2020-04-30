@@ -9,8 +9,6 @@ class LongWordChooser implements StringChooser {
 
 }
 
-// Add your choosers here
-
 //chooses string whose length is shorter or equal to 5
 class ShortWordChooser implements StringChooser {
 
