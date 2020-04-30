@@ -35,8 +35,6 @@ public class LinkedSL implements StringList {
 
 	}
 
-	// Fill in all methods
-
 	public String[] toArray() {
 
 		if (this.front == null) {
