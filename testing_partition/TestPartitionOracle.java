@@ -7,11 +7,6 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import org.junit.Test;
 
-/**
- * There are two ways to write partition methods to use for testing. One is to
- * make individual classes with a partition() method that implement Partitioner
- *
- */
 
 class DiscussionPartitioner implements Partitioner {
 
