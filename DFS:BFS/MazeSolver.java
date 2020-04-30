@@ -1,3 +1,5 @@
+package cse12pa3student;
+
 public abstract class MazeSolver {
 
 	public static Square solve(Maze maze, SearchWorklist wl) {
