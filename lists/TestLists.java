@@ -36,16 +36,7 @@ public class TestLists {
 		return null;
 	}
 
-	// Don't change code above this line, it ensures the autograder works as
-	// expected
 
-	// This is a sample test; you can keep it, change it, or remove it as you like.
-	// Note that it uses the method `assertArrayEquals`, which you should use to
-	// test equality of arrays in this PA.
-	/*
-	 * @Test public void testSimpleToArray() { String[] input = { "a", "b", "c" };
-	 * StringList s = makeList(input); assertArrayEquals(input, s.toArray()); }
-	 */
 
 	@Test
 	public void testToArray() {
