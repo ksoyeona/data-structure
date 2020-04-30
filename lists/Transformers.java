@@ -8,8 +8,6 @@ class UpperCaseTransformer implements StringTransformer {
 
 }
 
-// Add your transformers here
-
 class LowerCaseTransformer implements StringTransformer {
 
 	public String transformElement(String s) {
