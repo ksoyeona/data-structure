@@ -49,12 +49,6 @@ class EntryValueComparator implements Comparator<Entry<String, Integer>> {
 }
 
 /**
- * Read this class carefully.
- * 
- * You have to implement a handful of methods in it, and the existing methods
- * have lots of helpful patterns and hints.
- * 
- * @author joe
  *
  * @param <K>
  * @param <V>
@@ -66,9 +60,6 @@ public class BSTMap<K, V> implements OrderedDefaultMap<K, V> {
 	Comparator<K> comparator;
 	V defaultValue;
 
-	/**
-	 * These constructors are provided to you to use; you shouldn't need others
-	 */
 	public BSTMap(Comparator<K> comparator, V defaultValue) {
 		this.root = null;
 		this.size = 0;
@@ -198,10 +189,6 @@ public class BSTMap<K, V> implements OrderedDefaultMap<K, V> {
 		return this.defaultValue;
 	}
 	
-
-	// STUDENT: You will implement and test all the methods below this line
-	
-
 	// for storing keys
 	ArrayList<K> list = new ArrayList<K>();
 
