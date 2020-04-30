@@ -5,16 +5,6 @@ import java.util.*;
 public class PartitionOracle {
 
 	/**
-	 * Feel free to use this method to call partition. It catches any exceptions or
-	 * errors and returns a definitely-invalid pivot (-1) to turn errors into
-	 * potential failures. For example, in testPartition, you may use
-	 * 
-	 * runPartition(p, someArray, someLow, someHigh)
-	 * 
-	 * instead of
-	 * 
-	 * p.partition(someArray, someLow, someHigh)
-	 * 
 	 * @param p
 	 * @param strs
 	 * @param low
