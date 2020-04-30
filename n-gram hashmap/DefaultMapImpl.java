@@ -3,10 +3,6 @@ package cse12pa6student;
 import java.util.*;
 
 public class DefaultMapImpl<K, V> implements DefaultMap<K, V> {
-	/*
-	 * You will need to implement all the DefaultMap methods here. See the
-	 * DefaultMap interface for their descriptions.
-	 */
 
 	Map<K, V> map;
 	V defaultValue;
