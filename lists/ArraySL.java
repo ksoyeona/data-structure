@@ -10,8 +10,6 @@ public class ArraySL implements StringList {
 		this.size = initialElements.length;
 	}
 
-	// Fill in all required methods here
-
 	public String[] toArray() {
 
 		String[] newList = new String[this.size];
