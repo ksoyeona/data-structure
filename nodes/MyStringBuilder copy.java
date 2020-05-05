@@ -1,4 +1,4 @@
-/** Soyeon Kim, cs8bwaha
+/** Soyeon Kim
  *3/8/18
  *
  *This file contains a class MyStringBuilder which constructs MyStringBuilder
@@ -312,15 +312,6 @@ public class MyStringBuilder{
         ms1.append('l');
         ms1.append('e');
         ms1.append('p');
-
-        /*    int i = 0;
-              while(i<200000){
-
-              ms1.append('x');
-              i++;
-              }*/
-
-        //now MyStinrgBUilder ms1's sequence is 'lleo'
 
         System.out.println("ms1 : " +ms1.toString());
 
