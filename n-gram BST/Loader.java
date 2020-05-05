@@ -239,6 +239,5 @@ public class Loader {
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i).key + ": " + list.get(i).value);
 		}
-
 	}
 }
