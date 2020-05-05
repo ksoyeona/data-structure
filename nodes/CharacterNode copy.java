@@ -1,4 +1,4 @@
-/**Soyeon Kim, cs8bwaha
+/**Soyeon Kim
  *3/8/18
  *
  *This file contains a CharacterNode class.
